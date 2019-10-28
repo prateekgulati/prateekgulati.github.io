@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Batch Normalization | Prateek Gulati</title>
+    <link>/tags/batch-normalization/</link>
+      <atom:link href="/tags/batch-normalization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Batch Normalization</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Sep 2019 13:22:35 +0530</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Batch Normalization</title>
+      <link>/tags/batch-normalization/</link>
+    </image>
+    
+    <item>
+      <title>Batchnormalization is not a Norm!</title>
+      <link>/post/batchnorm/</link>
+      <pubDate>Tue, 24 Sep 2019 13:22:35 +0530</pubDate>
+      <guid>/post/batchnorm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

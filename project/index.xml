@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Prateek Gulati</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2019 21:21:50 +0530</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Tiny-Imagenet Challenge</title>
+      <link>/project/tinyimagenet/</link>
+      <pubDate>Tue, 22 Oct 2019 21:21:50 +0530</pubDate>
+      <guid>/project/tinyimagenet/</guid>
+      <description>
+
+&lt;h3 id=&#34;eip-phase-1-project&#34;&gt;EIP phase-1 Project&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Achieve atleast 60% validation accuracy on Tiny-Imagenet Dataset in less than 200 epochs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Challenges&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Due to lack of infrastructure, google colab was the only option available.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Approach&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trained a custom made DenseNet Model (21 layers) after taking receptive field and object size into consideration.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The model has 5 DenseBlocks each with 3 convolution layers and 4 transition blocks in between. There is no 5th transition block.&lt;/li&gt;
+&lt;li&gt;Substitued Flattern + Dense with Global Average Pooling layer to enable progeressive resizing.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Trained the model on scaled down images (16x16 and 32x32) for initial few epochs to extract the essential features and later on original size to improve the further accuracy.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Train additionally on poorly performing classes identified using F1 score.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Triangular Cyclic LR for faster convergence.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;14 different type of image augmentation techniques.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Details&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Batch size: 320&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Total Parameters: 8.9M&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Learning Rate: MaxLR = 0.05, MinLR=0.001 and StepSize=2000&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Results&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation Accuracy 62.95%&lt;/li&gt;
+&lt;li&gt;Epochs 95&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find the notebook &lt;a href=&#34;https://colab.research.google.com/drive/1INaQhqN5ZlQZMkldE_MC3nK69Ty5RCuh#scrollTo=LJE5n5pJRgMP&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

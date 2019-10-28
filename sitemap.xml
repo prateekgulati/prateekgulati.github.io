@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-10-22T21:21:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-10-22T21:21:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/tinyimagenet/</loc>
+    <lastmod>2019-10-22T21:21:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/batch-normalization/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/batchnorm/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/convolutional-neural-net/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/prateek-gulati/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/resnet/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-09-24T13:22:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/activation-functions/</loc>
+    <lastmod>2019-09-11T13:22:31+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/relu/</loc>
+    <lastmod>2019-09-11T13:22:31+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
+  
+</urlset>
