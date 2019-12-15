@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Dec 2019 06:27:57 +0530</lastBuildDate>
     <image>
       <url>/img/avatar.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Binary strings of length &#39;n&#39; with &#39;x&#39; zeros and longest &#39;k&#39;-runs of zero</title>
+      <link>/publication/binarysequence/</link>
+      <pubDate>Sun, 15 Dec 2019 06:27:57 +0530</pubDate>
+      <guid>/publication/binarysequence/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

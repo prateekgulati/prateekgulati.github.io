@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monimala Nej | Prateek Gulati</title>
+    <link>/authors/monimala-nej/</link>
+      <atom:link href="/authors/monimala-nej/index.xml" rel="self" type="application/rss+xml" />
+    <description>Monimala Nej</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Dec 2019 06:27:57 +0530</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Monimala Nej</title>
+      <link>/authors/monimala-nej/</link>
+    </image>
+    
+    <item>
+      <title>Binary strings of length &#39;n&#39; with &#39;x&#39; zeros and longest &#39;k&#39;-runs of zero</title>
+      <link>/publication/binarysequence/</link>
+      <pubDate>Sun, 15 Dec 2019 06:27:57 +0530</pubDate>
+      <guid>/publication/binarysequence/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

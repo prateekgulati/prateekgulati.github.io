@@ -5,12 +5,28 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Sep 2019 13:22:35 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Dec 2019 06:27:57 +0530</lastBuildDate>
     <image>
       <url>/img/avatar.jpg</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>A. Satyanarayana Reddy</title>
+      <link>/authors/a.-satyanarayana-reddy/</link>
+      <pubDate>Sun, 15 Dec 2019 06:27:57 +0530</pubDate>
+      <guid>/authors/a.-satyanarayana-reddy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monimala Nej</title>
+      <link>/authors/monimala-nej/</link>
+      <pubDate>Sun, 15 Dec 2019 06:27:57 +0530</pubDate>
+      <guid>/authors/monimala-nej/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Prateek Gulati</title>
@@ -25,7 +41,7 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am currently working as a Software Engineer II at Dell EMC. I am also enrolled in External Vision AI Program at The School of AI, Bangalore. My research interests include Deep Vision (Object Recognition, Detection, GAN, and VAE) and NLP.&lt;/p&gt;
+      <description>&lt;p&gt;I am currently working as a Software Engineer II at Dell EMC. I am also enrolled in External Vision AI Program at The School of AI, Bangalore. My primary research interests include Object Detection, Recognition, and generative models like GANs and Autoencoders. I am looking forward to working on developing efficient and adaptive models that are scalable and generic, hence, bridge-in the gap between academia and industry.&lt;/p&gt;
 </description>
     </item>
     

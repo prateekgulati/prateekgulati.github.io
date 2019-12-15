@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>State of The Art | Prateek Gulati</title>
+    <link>/tags/state-of-the-art/</link>
+      <atom:link href="/tags/state-of-the-art/index.xml" rel="self" type="application/rss+xml" />
+    <description>State of The Art</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Jun 2019 20:13:29 +0530</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>State of The Art</title>
+      <link>/tags/state-of-the-art/</link>
+    </image>
+    
+    <item>
+      <title>Stanford DawnBench - CIFAR10</title>
+      <link>/project/dawnbench/</link>
+      <pubDate>Mon, 24 Jun 2019 20:13:29 +0530</pubDate>
+      <guid>/project/dawnbench/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Achieve 94% validation accuracy on CIFAR10 Dataset in less than 100 secs on V100 GPU.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Challenges&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Due to lack of infrastructure, google colab was the only option available.  To simulate the same environment, target is 94% validation accuracy in 600 secs on K80&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 1:&lt;/strong&gt;  Trained a custom made ResNet9 Model using tensorflow.keras.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 92.2% Time: 1493 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 2:&lt;/strong&gt; Added a slanted one cycle Learning rate with gradual drop towards the end.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 92.6% Time: 1502 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 3:&lt;/strong&gt; Added Image Augmentation: FlipLR, RandomPadCrop(padding of 4) and Cutout(16x16).&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 93.8% Time: 1627 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 4:&lt;/strong&gt; Built a pipeline using tfRecords and enabled prefetch for CPU and GPU to work in parallel.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 93.8% Time: 741 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 5:&lt;/strong&gt; Augmented the data and then stored in tfRecords.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 93.8% Time: 602 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Details&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Batch size: 512&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Total Parameters: 8.9M (check params)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Learning Rate: MaxLR = 0.4 at epoch 5, MinLR=0.001 at epoch 20 and gradual drop 0.0001 at 24th epoch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Results&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation Accuracy 93.80%&lt;/li&gt;
+&lt;li&gt;Time: 602 secs&lt;/li&gt;
+&lt;li&gt;Epochs 24&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adversarial Network | Prateek Gulati</title>
+    <link>/tags/adversarial-network/</link>
+      <atom:link href="/tags/adversarial-network/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adversarial Network</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jul 2019 20:13:47 +0530</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Adversarial Network</title>
+      <link>/tags/adversarial-network/</link>
+    </image>
+    
+    <item>
+      <title>Facial feature manipulation using Adversarial Networks</title>
+      <link>/project/cyclegan/</link>
+      <pubDate>Fri, 26 Jul 2019 20:13:47 +0530</pubDate>
+      <guid>/project/cyclegan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Prateek Gulati</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2019 21:21:50 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Dec 2019 06:27:57 +0530</lastBuildDate>
     <image>
       <url>/img/avatar.jpg</url>
       <title>Prateek Gulati</title>
@@ -13,9 +13,91 @@
     </image>
     
     <item>
+      <title>Binary strings of length &#39;n&#39; with &#39;x&#39; zeros and longest &#39;k&#39;-runs of zero</title>
+      <link>/publication/binarysequence/</link>
+      <pubDate>Sun, 15 Dec 2019 06:27:57 +0530</pubDate>
+      <guid>/publication/binarysequence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Batchnormalization is not a Norm!</title>
+      <link>/post/batchnorm/</link>
+      <pubDate>Tue, 24 Sep 2019 13:22:35 +0530</pubDate>
+      <guid>/post/batchnorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is ReLU ReLUvant?</title>
+      <link>/post/relu/</link>
+      <pubDate>Wed, 11 Sep 2019 13:22:31 +0530</pubDate>
+      <guid>/post/relu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial feature manipulation using Adversarial Networks</title>
+      <link>/project/cyclegan/</link>
+      <pubDate>Fri, 26 Jul 2019 20:13:47 +0530</pubDate>
+      <guid>/project/cyclegan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stanford DawnBench - CIFAR10</title>
+      <link>/project/dawnbench/</link>
+      <pubDate>Mon, 24 Jun 2019 20:13:29 +0530</pubDate>
+      <guid>/project/dawnbench/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Achieve 94% validation accuracy on CIFAR10 Dataset in less than 100 secs on V100 GPU.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Challenges&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Due to lack of infrastructure, google colab was the only option available.  To simulate the same environment, target is 94% validation accuracy in 600 secs on K80&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 1:&lt;/strong&gt;  Trained a custom made ResNet9 Model using tensorflow.keras.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 92.2% Time: 1493 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 2:&lt;/strong&gt; Added a slanted one cycle Learning rate with gradual drop towards the end.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 92.6% Time: 1502 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 3:&lt;/strong&gt; Added Image Augmentation: FlipLR, RandomPadCrop(padding of 4) and Cutout(16x16).&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 93.8% Time: 1627 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 4:&lt;/strong&gt; Built a pipeline using tfRecords and enabled prefetch for CPU and GPU to work in parallel.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 93.8% Time: 741 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiment 5:&lt;/strong&gt; Augmented the data and then stored in tfRecords.&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt; Validation Accuracy: 93.8% Time: 602 secs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Details&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Batch size: 512&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Total Parameters: 8.9M (check params)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Learning Rate: MaxLR = 0.4 at epoch 5, MinLR=0.001 at epoch 20 and gradual drop 0.0001 at 24th epoch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Results&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Validation Accuracy 93.80%&lt;/li&gt;
+&lt;li&gt;Time: 602 secs&lt;/li&gt;
+&lt;li&gt;Epochs 24&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tiny-Imagenet Challenge</title>
       <link>/project/tinyimagenet/</link>
-      <pubDate>Tue, 22 Oct 2019 21:21:50 +0530</pubDate>
+      <pubDate>Tue, 26 Feb 2019 21:21:50 +0530</pubDate>
       <guid>/project/tinyimagenet/</guid>
       <description>
 
@@ -58,22 +140,6 @@
 
 &lt;p&gt;You can find the notebook &lt;a href=&#34;https://colab.research.google.com/drive/1INaQhqN5ZlQZMkldE_MC3nK69Ty5RCuh#scrollTo=LJE5n5pJRgMP&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Batchnormalization is not a Norm!</title>
-      <link>/post/batchnorm/</link>
-      <pubDate>Tue, 24 Sep 2019 13:22:35 +0530</pubDate>
-      <guid>/post/batchnorm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Is ReLU ReLUvant?</title>
-      <link>/post/relu/</link>
-      <pubDate>Wed, 11 Sep 2019 13:22:31 +0530</pubDate>
-      <guid>/post/relu/</guid>
-      <description></description>
     </item>
     
   </channel>
